@@ -17,7 +17,8 @@ await session.setSource(mediaStream);
 await session.play();
 
 const lens = await cameraKit.lensRepository.loadLens(
-  'b5f3d67a-2559-4f2a-b0d4-9a08449462ec',
+  // App id and Group id
+  '50507980875',
   'ba31da6f-8bda-4b19-9ea7-ca7ff23e9931'
 );
 
